@@ -9,9 +9,9 @@ html, body {
 }
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg,#131618, #414141 ,#0c0c0c);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 10s ease infinite;
     text-align: center;
     
 }
@@ -66,7 +66,7 @@ body {
   }
  
 /* text in the middle*/
-.bg-text {
+/* .bg-text {
   color: white;
   font-weight: bold;
   text-shadow:1px 2px black;
@@ -79,9 +79,65 @@ body {
   width: 80%;
   padding: 20px;
   text-align: center;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: #131618;
   animation: gradient 15s ease infinite;   
+} */
+
+/*  */
+.module {
+  background: white;
+  border: 1px solid #ccc;
+  margin: 3%;
+  > h2 {
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+  }
+  > p {
+    padding: 0 1rem;
+  }
 }
+
+.stripe-4 {
+  color: white;
+  background: repeating-linear-gradient(
+    -55deg,
+    #222,
+    #222 20px,
+    #333 25px,
+    #333 30px),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+/* .stripe-4 {
+  color: black;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    #ccc 10px,
+    #ccc 20px
+  ),
+  linear-gradient(
+    to bottom,
+    #eee,
+    #999
+  ) */
+
+
+
+
+}
+  
+
+/*  */
 
 .text{
     text-align: center;
@@ -199,9 +255,9 @@ body {
 
 <body>
     <div id="clip1" class="my"></div>
-    <div class="bg-text">
+    <div class="stripe-4">
       <h1 style="size:50px ;">NEVER STOP EXPLORING</h1>   
-      <h4 >Artanis Cloud is a software development company on Artificial Intelligence.</h4>
+      <h2 >Artanis Cloud is a software development company on Artificial Intelligence.</h2>
     </div>
    
   
