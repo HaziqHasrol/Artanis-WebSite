@@ -9,10 +9,11 @@ html, body {
 }
 
 body {
-    background: linear-gradient(-45deg,#131618, #414141 ,#0c0c0c);
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     text-align: center;
+    
     
 }
 
@@ -85,6 +86,7 @@ body {
 
 /*  */
 .module {
+  
   background: white;
   border: 1px solid #ccc;
   margin: 3%;
@@ -97,14 +99,17 @@ body {
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
 .stripe-4 {
-  color: white;
+  font-family: 'Montserrat', sans-serif;
+  color: #FF00FF;
   background: repeating-linear-gradient(
     -55deg,
-    #222,
-    #222 20px,
-    #333 25px,
-    #333 30px),
+    #333,
+    #333 20px,
+    grey 25px,
+    #222 30px),
     url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png);
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -114,6 +119,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  letter-spacing: 2px;
+  
 
 }
 /* .stripe-4 {
