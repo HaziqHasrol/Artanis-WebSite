@@ -73,8 +73,10 @@ body {
 /* textin the middle*/
 .stripe-4 {
 
-  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
-  animation: gradient 10s ease infinite;
+  /* background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); */
+  /* animation: gradient 10s ease infinite; */
+
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 40% , rgb(63, 76, 119)50% );
   border-style:solid double solid double;
   font-family: 'Montserrat', sans-serif;
   color: white;
