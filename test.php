@@ -9,11 +9,14 @@ html, body {
 }
 
 body {
-  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
     text-align: center;
-    
+    background: repeating-linear-gradient(
+    -55deg,
+    #1f1fff,
+    #333 20px,
+    grey 25px,
+    #222 30px),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png);
     
 }
 
@@ -41,53 +44,18 @@ body {
     animation:clip1 7s linear infinite;  
 }
 
-
-
-
-/*gradient color effect*/
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 .title{
     text-transform: uppercase;
     font-size: 96px;
     font-family: 'verdana', cursive; 
     color:white;
-    text-shadow:2px 5px black;
+    text-shadow:5px 5px black;
           
   }
- 
-/* text in the middle*/
-/* .bg-text {
-  color: white;
-  font-weight: bold;
-  text-shadow:1px 2px black;
-  border: 1.5px outset ;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-  background: #131618;
-  animation: gradient 15s ease infinite;   
-} */
 
-/*  */
 .module {
   
-  background: white;
+    
   border: 1px solid #ccc;
   margin: 3%;
   > h2 {
@@ -101,16 +69,15 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
 
+
+/* textin the middle*/
 .stripe-4 {
+
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+  animation: gradient 10s ease infinite;
+  border-style:solid double solid double;
   font-family: 'Montserrat', sans-serif;
-  color: #FF00FF;
-  background: repeating-linear-gradient(
-    -55deg,
-    #333,
-    #333 20px,
-    grey 25px,
-    #222 30px),
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png);
+  color: white;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 80%;
@@ -123,25 +90,12 @@ body {
   
 
 }
-/* .stripe-4 {
-  color: black;
-  background: repeating-linear-gradient(
-    45deg,
-    transparent,
-    transparent 10px,
-    #ccc 10px,
-    #ccc 20px
-  ),
-  linear-gradient(
-    to bottom,
-    #eee,
-    #999
-  ) */
 
 
 
 
-}
+
+
   
 
 /*  */
