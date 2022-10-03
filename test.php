@@ -18,6 +18,7 @@ body {
     #222 30px),
     url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/old_map_@2X.png);
     
+    
 }
 
 /* ac picture*/
@@ -93,24 +94,15 @@ body {
 
 }
 
-
-
-
-
-
-  
-
-/*  */
-
 .text{
     text-align: center;
     font-size: 20px;
 }
 
-
 /* button glitch*/
 .button-49,
 .button-49:after {
+  
   width: 250px;
   height: 100px;
   line-height: 100px;
@@ -225,7 +217,7 @@ body {
    
   
     <button class="button-49" onclick="window.location.href='https://www.artaniscloud.com/'">GO TO ARTANIS CLOUD.COM</button>
-    <button class="button-49" onclick="window.location.href='http://localhost/artanis%20test/login.php'">GO TO DEV.EZRAN.MY</button>
+    <button class="button-49" onclick="window.location.href='http://localhost/artanis%20test/login2.php'">GO TO DEV.EZRAN.MY</button>
     <button class="button-49" onclick="window.location.href='https://elixirush.com/'">GO TO ELIXIRUSH.COM</button>
     <button class="button-49" onclick="window.location.href='https://lootbox.my/'">GO TO LOOTBOX.MY</button>
     

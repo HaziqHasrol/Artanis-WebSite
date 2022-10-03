@@ -136,6 +136,8 @@ input[type=submit]:hover {
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
                 <input type="text" name="id" id="userName" placeholder="Username">
+                
+
             </div>
             <div class="form-field d-flex align-items-center">
                 <span class="fas fa-key"></span>
@@ -172,7 +174,7 @@ input[type=submit]:hover {
     
             if(mysqli_num_rows($sendsql) != 0){
                 $_SESSION["id"]=$username;
-                echo "<script>alert('Login Successful!\\nWelcome ".$username."!!!');location.href='test2.php';</script>";
+                echo "<script>alert('Login Successful!\\nWelcome ".$username."!!!');location.href='test4.php';</script>";
                 
             } 
             else

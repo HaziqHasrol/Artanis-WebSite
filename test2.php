@@ -195,7 +195,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title" >ACES | 4.0 version 2</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='//acesv2.ezran.my/'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='//acesv2.ezran.my/'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -203,7 +203,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Portal Show Car</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.showcar.ezran.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://www.showcar.ezran.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
     
@@ -211,7 +211,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Portal HTCKL 2.0</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://htckl-mockup-1.ezran.my/'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://htckl-mockup-1.ezran.my/'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -219,7 +219,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">ACES | 4.0 PRO version </h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://webpro.aces.ecerdc.com.my/'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://webpro.aces.ecerdc.com.my/'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -227,7 +227,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">e-Kilang Malaysian Plam Oil Board (MPOB)</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://ekilang.ezran.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://ekilang.ezran.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -235,7 +235,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Portal UNESCO |HP Malaysia</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.unescoihp.ezran.my/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://www.unescoihp.ezran.my/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -243,7 +243,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">e-KBK Jabatan Perhutanan Semenanjung Malaysia (JPSM) </h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.ekbk.ezran.my/'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://www.ekbk.ezran.my/'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -251,7 +251,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Portal Jabatan Alam Sekitar (JAS) </h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.doe.gov.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://www.doe.gov.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
     
@@ -259,7 +259,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Asset Management R&D</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.asset-management.ezran.my/login'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://www.asset-management.ezran.my/login'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -267,7 +267,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Sistem Bantuan Kewangan Rumah Ibadat Selain Islam (RISI)<br> Unit Perancang Ekonomi Negeri (UPEN) Selangor </h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.upen.ezran.my/'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://www.upen.ezran.my/'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -275,7 +275,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Venue Management System <br> International Conference and Exhibition Professionals (iCEP)</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://vms.icep.com.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://vms.icep.com.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -283,7 +283,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">e-Cost <br>Malaysian Palm Oil Board (MPOB)</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.ecost.ezran.my/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://www.ecost.ezran.my/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -291,7 +291,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Marketplace</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://dev.ezran.my/marketplace/home'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://dev.ezran.my/marketplace/home'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -299,7 +299,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">ACES |4.0</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://webapp.aces.ecerdc.com.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://webapp.aces.ecerdc.com.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
     
@@ -307,7 +307,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Portal Bahagian Istiadat Dan Urusetia Antarabangsa (BIUPA)</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.istiadat.gov.my//'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://www.istiadat.gov.my//'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -315,7 +315,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">e-Spatial <br> Jabatan Perhutanan Semenanjung Malaysia (JPSM) </h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://espatial.ezran.my/'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://espatial.ezran.my/'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -323,7 +323,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">e-Declare <br> Malaysian Communications and Multimedia Commission (MCMC)</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://edeclare.ezran.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://edeclare.ezran.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -331,7 +331,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Portal Kementerian Pembangunan Luar Bandar(KPLB) </h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.rurallink.gov.my/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://www.rurallink.gov.my/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -339,7 +339,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">POKLI e-Commerce</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://pokli.com.my/'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://pokli.com.my/'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -347,7 +347,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Portal Humid Tropics Center Kuala Lumpur (HTCKL) </h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://htckl.water.gov.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://htckl.water.gov.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
     
@@ -355,7 +355,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Maintenance Management System</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://ezran.my/mms2/login.php'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://ezran.my/mms2/login.php'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -363,7 +363,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">MAMPU MyGDX </h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://mygdx.malaysia.gov.my/ms'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://mygdx.malaysia.gov.my/ms'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -371,7 +371,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">Water Resource Index System </h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='http://waris.water.gov.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='http://waris.water.gov.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
@@ -379,7 +379,7 @@ border-radius: 10%;
       <div class="card__icon"><i class="fas fa-bolt"></i></div>
       <h2 class="card__title">CAAM Drone</h2>
       <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://ezran.my/drone/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
+        <a class="card__link"  onclick="window.location.href='https://ezran.my/drone/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
       </p>
     </div>
 
