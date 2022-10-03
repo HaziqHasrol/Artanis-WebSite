@@ -1,7 +1,12 @@
+
+<?php
+    include 'dbconnect.artanis.php'   
+    ?>
 <!DOCTYPE html>
 <html>  
 <script src="https://kit.fontawesome.com/539ec32f1f.js" crossorigin="anonymous"></script>
 <style>
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
@@ -56,10 +61,31 @@ body {
   text-align: center;
 }
 
+/* .card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.06);
+  box-shadow: 0 0 100px #c1f9a2;
+} */
+
 .card:hover {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
   transform: scale(1.06);
-  
+  box-shadow: 0 0 100px #c1f9a2;
+  width: 500px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 11px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bolder;
+  background: linear-gradient(45deg, transparent 10%, #e4e0d4 10%);
+  color: black;
+  letter-spacing: 1px;
+  outline: transparent;
+  border: outset ;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
 .card__link,.card__icon {
@@ -131,16 +157,14 @@ body {
 
 /* aclogo */
       .GFG {
-            /* width: 200px;
-            height: 250px;
-            margin-left: 550px; */
+            
             border-radius: 10%;
             cursor: pointer;
         }
           
         .GFG:hover {
             color: #111;
-            box-shadow: 0 0 100px white;
+            box-shadow: 0 0 100px #c1f9a2;
             
             }
  
@@ -490,9 +514,7 @@ border-radius: 10%;
 
     </body>
 
-    <?php
     
-     include 'dbconnect.artanis.php';
-     ?>
+    
 
 </html>

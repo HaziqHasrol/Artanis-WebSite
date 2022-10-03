@@ -12,7 +12,7 @@
 
 body {
     color:white;
-    background-image: linear-gradient(45deg,#131618 55%	,#000000 55% , rgb(63, 76, 119)75%  );
+    background-image: linear-gradient(45deg,#131618 50%	,#000000 55% , rgb(63, 76, 119)75%  );
     font-family: 'Silkscreen', cursive;
     /* background: linear-gradient(60deg, rgb(32, 38, 57) 40% , rgb(63, 76, 119)50% ); */
 }
@@ -115,11 +115,11 @@ button:hover {
     
             if(mysqli_num_rows($sendsql) != 0){
                 $_SESSION["id"]=$username;
-                echo "<script>alert('Login Successful!\\nWelcome ".$username."!!!');location.href='test4.php';</script>";
+                echo "<script>location.href='test4.php';</script>";
                 
             } 
-            else
-                echo"<script>alert('ERORR!!\\ Username or password not match/exist')</script>";
+            
+                
         }
             
     ?>
