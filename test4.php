@@ -52,13 +52,15 @@ body {
 
 .card {
   margin: 20px;
-  padding: 20px;
-  width: 500px;
+  padding-top: 20px;
+  margin:30px 70px 30px;
+  width: 400px;
   min-height: 200px;
-  border-radius: 40px;
+  border-radius: 20px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
   transition: all 0.4s;
   text-align: center;
+  font-size: 18px;
 }
 
 /* .card:hover {
@@ -67,26 +69,21 @@ body {
   box-shadow: 0 0 100px #c1f9a2;
 } */
 
-.card:hover {
+ .card:hover {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
   transform: scale(1.06);
   box-shadow: 0 0 100px #c1f9a2;
   width: 500px;
-  height: 100px;
-  line-height: 100px;
-  font-size: 11px;
+  height: 200px;
+  font-size: 16px;
   font-family: 'Bebas Neue', sans-serif;
   font-weight: bolder;
   background: linear-gradient(45deg, transparent 10%, #e4e0d4 10%);
   color: black;
-  letter-spacing: 1px;
   outline: transparent;
   border: outset ;
   position: relative;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
+} 
 
 .card__link,.card__icon {
   position: relative;
@@ -120,6 +117,7 @@ body {
   color: #ffffff;
   font-weight: bold;
   text-shadow:1px 1px black;
+  padding-top:30px;
 }
 
 
@@ -297,7 +295,7 @@ border-radius: 10%;
       <title>Artanis Cloud Project</title>
         <!-- The video background -->
         <video autoplay muted loop id="myVideo">
-            <source src="glitch.mp4" type="video/mp4">
+            <source src="glitch3.mp4" type="video/mp4">
         </video>
         
     </head> 
@@ -317,196 +315,100 @@ border-radius: 10%;
   
 <div class="cards">
 
-    <div class="card card-1" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-1" onclick="window.location.href='//acesv2.ezran.my/'" >  
       <h2 class="card__title" >ACES | 4.0 version 2</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='//acesv2.ezran.my/'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-2" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-2" onclick="window.location.href='https://www.showcar.ezran.my/'">
       <h2 class="card__title">Portal Show Car</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.showcar.ezran.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
     
-    <div class="card card-3" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-3" onclick="window.location.href='https://htckl-mockup-1.ezran.my/'" >
       <h2 class="card__title">Portal HTCKL 2.0</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://htckl-mockup-1.ezran.my/'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-4" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-4" onclick="window.location.href='https://webpro.aces.ecerdc.com.my/'" >
       <h2 class="card__title">ACES | 4.0 PRO version </h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://webpro.aces.ecerdc.com.my/'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-5" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-5" onclick="window.location.href='https://ekilang.ezran.my/'">
       <h2 class="card__title">e-Kilang Malaysian Plam Oil Board (MPOB)</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://ekilang.ezran.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-1" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-1"  onclick="window.location.href='https://www.unescoihp.ezran.my/'">
       <h2 class="card__title">Portal UNESCO |HP Malaysia</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.unescoihp.ezran.my/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-1" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-1" onclick="window.location.href='https://www.ekbk.ezran.my/'">
       <h2 class="card__title">e-KBK Jabatan Perhutanan Semenanjung Malaysia (JPSM) </h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.ekbk.ezran.my/'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-2" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-2" onclick="window.location.href='https://www.doe.gov.my/'">
       <h2 class="card__title">Portal Jabatan Alam Sekitar (JAS) </h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.doe.gov.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
     
-    <div class="card card-3" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-3" onclick="window.location.href='https://www.asset-management.ezran.my/login'">
       <h2 class="card__title">Asset Management R&D</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.asset-management.ezran.my/login'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-4" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-4" onclick="window.location.href='https://www.upen.ezran.my/'">
       <h2 class="card__title">Sistem Bantuan Kewangan Rumah Ibadat Selain Islam (RISI)<br> Unit Perancang Ekonomi Negeri (UPEN) Selangor </h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.upen.ezran.my/'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-5" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-5" onclick="window.location.href='https://vms.icep.com.my/'">
       <h2 class="card__title">Venue Management System <br> International Conference and Exhibition Professionals (iCEP)</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://vms.icep.com.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-1" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-1" onclick="window.location.href='https://www.ecost.ezran.my/'">
       <h2 class="card__title">e-Cost <br>Malaysian Palm Oil Board (MPOB)</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.ecost.ezran.my/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-1" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-1" onclick="window.location.href='https://dev.ezran.my/marketplace/home'">
       <h2 class="card__title">Marketplace</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://dev.ezran.my/marketplace/home'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-2" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-2" onclick="window.location.href='https://webapp.aces.ecerdc.com.my/'">
       <h2 class="card__title">ACES |4.0</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://webapp.aces.ecerdc.com.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
     
-    <div class="card card-3" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-3" onclick="window.location.href='https://www.istiadat.gov.my//'">
       <h2 class="card__title">Portal Bahagian Istiadat Dan Urusetia Antarabangsa (BIUPA)</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.istiadat.gov.my//'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-4" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-4" onclick="window.location.href='https://espatial.ezran.my/'">
       <h2 class="card__title">e-Spatial <br> Jabatan Perhutanan Semenanjung Malaysia (JPSM) </h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://espatial.ezran.my/'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-5" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-5" onclick="window.location.href='https://edeclare.ezran.my/'">
       <h2 class="card__title">e-Declare <br> Malaysian Communications and Multimedia Commission (MCMC)</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://edeclare.ezran.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-1" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-1" onclick="window.location.href='https://www.rurallink.gov.my/'">
       <h2 class="card__title">Portal Kementerian Pembangunan Luar Bandar(KPLB) </h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://www.rurallink.gov.my/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-1" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-1" onclick="window.location.href='https://pokli.com.my/'">
       <h2 class="card__title">POKLI e-Commerce</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://pokli.com.my/'">GO Now !! &#128525; <i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-2" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-2" onclick="window.location.href='https://htckl.water.gov.my/'">
       <h2 class="card__title">Portal Humid Tropics Center Kuala Lumpur (HTCKL) </h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://htckl.water.gov.my/'">GO now !!  &#128512;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
     
-    <div class="card card-3" > 
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-3" onclick="window.location.href='https://ezran.my/mms2/login.php'"> 
       <h2 class="card__title">Maintenance Management System</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://ezran.my/mms2/login.php'">GO now !! &#128536;<i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-4" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <div class="card card-4" onclick="window.location.href='https://mygdx.malaysia.gov.my/ms'">
       <h2 class="card__title">MAMPU MyGDX </h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://mygdx.malaysia.gov.my/ms'">GO now !! &#128523; <i class="fas fa-arrow-right"></i></a>
-      </p>
     </div>
 
-    <div class="card card-5" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
-      <h2 class="card__title">Water Resource Index System </h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='http://waris.water.gov.my/'">GO now !! &#128518;<i class="fas fa-arrow-right"></i></a>
-      </p>
+    <div class="card card-5" onclick="window.location.href='http://waris.water.gov.my/'">  
+      <h2 class="card__title">Water Resource Index System </h2>  
     </div>
 
-    <div class="card card-1" >
-      <div class="card__icon"><i class="fas fa-bolt"></i></div>
-      <h2 class="card__title">CAAM Drone</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#" onclick="window.location.href='https://ezran.my/drone/'">GO now !! &#128513;<i class="fas fa-arrow-right"></i></a>
-      </p>
+    <div class="card card-1" onclick="window.location.href='https://ezran.my/drone/'">   
+      <h2 class="card__title">CAAM Drone</h2>     
     </div>
 
   </div>
